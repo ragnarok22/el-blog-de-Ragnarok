@@ -12,6 +12,12 @@ body {
 
 a {
   text-decoration: none;
+  color: rgb(43, 43, 43);
+  transition: all .4s ease-in;
+}
+
+a:hover {
+  color: black;
 }
 
 .page {
@@ -21,8 +27,9 @@ a {
 }
 
 .page .header {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 .page .header .brand-name {
@@ -50,38 +57,40 @@ align-items: center;
   padding: 0 10px;
 }
 
-.page .content h1 {
-  margin-top: 20px;
-  text-align: center;
-}
+
 
 .page .content .post-list .post-item {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   flex: 1 0 auto;
-  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.page .content .post-list .post-item .post-tag {
+  background-color: #686868;
+  padding: 3px 5px;
+  color: white;
+  font-size: .8rem;
 }
 
 .page .content .post-list .post-item a {
   font-weight: 800;
-  color: rgba(102, 102, 102, 1);
 }
 
-.page .content .post-list .post-item span {
-  color: #212121;
-  font-size: .9rem;
-  font-weight: 300;
+.page .content .post-list .post-item time {
+  margin-top: 20px;
+  color: #5a5a5a;
   text-transform: lowercase;
 }
 
-.page .content .post-list .post-item span a {
-  font-weight: 400;
+.page .content .all-posts {
+  margin-top: 10px;
+  transition: all .2s ease-in;
 }
 
-.page .content .all-posts {
+.page .content .all-posts:hover {
   margin-left: 5px;
-  margin-top: 10px;
 }
 
 .page .content .all-posts::after {

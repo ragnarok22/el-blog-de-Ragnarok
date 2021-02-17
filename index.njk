@@ -4,7 +4,6 @@ layout: layouts/home.njk
 
 <div class="content">
   {% set maxPosts = collections.posts.length | min(3) %}
-  <h1>Últimas entradas</h1>
   {% set postslist = collections.posts | head(-3) %}
   {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}

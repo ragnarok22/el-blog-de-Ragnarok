@@ -2,9 +2,16 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<div class="post">
+  <div class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <time class="post-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+  </div>
 
-{{ content | safe }}
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+</div>
 
 <hr>
 <ul>

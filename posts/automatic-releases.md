@@ -1,9 +1,10 @@
 ---
 title: Releases automáticos con GitHub actions.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+description: Como hacer despliegues continuos automáticos usando Github actions
+date: 2021-02-17
 tags:
-  - another-tag
+  - CD/CI
+  - GitHub
 layout: layouts/post.njk
 ---
 

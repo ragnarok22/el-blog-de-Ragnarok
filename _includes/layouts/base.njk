@@ -20,13 +20,11 @@
           <div class="brand-name">
               <h1 class="brand-title"><a href="{{ '/' | url }}">Blog de Ragnarok</a></h1>
               <div class="brand-topics">
-                  <a href="#" class="topic-item">deploy</a>
-                  <i>|</i>
-                  <a href="#" class="topic-item">github</a>
-                  <i>|</i>
-                  <a href="#" class="topic-item">CD/CI</a>
-                  <i>|</i>
-                  <a href="#" class="topic-item">Python</a>
+              {% for tag in collections.tagList %}
+                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" class="topic-item">{{ tag }}</a>
+                <i>|</i>
+              {% endfor %}
               </div>
           </div>
       </header>

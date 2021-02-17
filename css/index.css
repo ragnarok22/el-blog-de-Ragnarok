@@ -102,3 +102,28 @@ a:hover {
   margin-top: auto;
   text-align: center;
 }
+
+/******* ERROR 404 *******/
+.error.e404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100%;
+  position: absolute;
+}
+
+.error.e404 .error-number {
+  color: grey;
+  padding-right: 10px;
+  border-right: 1px solid grey;
+}
+
+.error.e404 a {
+  color: grey;
+  text-decoration: underline;
+}
+
+.error.e404 p {
+  margin-left: 10px;
+}

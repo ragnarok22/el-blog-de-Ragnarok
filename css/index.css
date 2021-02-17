@@ -127,3 +127,12 @@ a:hover {
 .error.e404 p {
   margin-left: 10px;
 }
+
+/********** POSTS ************/
+.post .post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post .post-header .post-title {
+  font-size: 3rem;
+}

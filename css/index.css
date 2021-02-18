@@ -20,6 +20,10 @@ a:hover {
   color: black;
 }
 
+h2, h3, p {
+  margin-top: 1.5rem;
+}
+
 .page {
   width: 600px;
   display: flex;
@@ -81,6 +85,10 @@ a:hover {
   margin-top: 5px;
   color: #5a5a5a;
   text-transform: lowercase;
+}
+
+.page .content .post-list .post-item .post-title {
+  margin-top: 0;
 }
 
 .page .content .all-posts {

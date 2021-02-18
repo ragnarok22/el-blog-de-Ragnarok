@@ -20,7 +20,7 @@ a:hover {
   color: black;
 }
 
-h2, h3, p {
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p {
   margin-top: 1.5rem;
 }
 

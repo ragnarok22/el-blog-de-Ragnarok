@@ -62,7 +62,6 @@ a:hover {
 .page .content .post-list .post-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex: 1 0 auto;
   margin-bottom: 15px;
 }
@@ -79,7 +78,7 @@ a:hover {
 }
 
 .page .content .post-list .post-item time {
-  margin-top: 20px;
+  margin-top: 5px;
   color: #5a5a5a;
   text-transform: lowercase;
 }

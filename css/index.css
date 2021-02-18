@@ -77,7 +77,7 @@ a:hover {
   font-weight: 800;
 }
 
-.page .content .post-list .post-item time {
+.page .content .post-list .post-item time, time {
   margin-top: 5px;
   color: #5a5a5a;
   text-transform: lowercase;
@@ -107,9 +107,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vh;
   height: 100%;
-  position: absolute;
 }
 
 .error.e404 .error-number {

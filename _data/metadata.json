@@ -1,20 +1,20 @@
 {
   "title": "El blog de Ragnarok",
-  "url": "https://ragnarok-blog.netlify.app/",
-  "description": "Soy un ingeniero informático escribiendo sobre sus experiencias en el desarrollo y sus tropezones.",
+  "url": "https://blog.ragnarok22.dev/",
+  "description": "Blog personal sobre mis experiencias y tropezones en el mundo del desarrollo de software.",
   "feed": {
     "subtitle": "Escribiendo sobre mis experiencias en desarrollo de software.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://ragnarok-blog.netlify.app/"
+    "id": "https://blog.ragnarok22.dev/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://ragnarok-blog.netlify.app/feed/feed.json"
+    "url": "https://blog.ragnarok22.dev/feed/feed.json"
   },
   "author": {
     "name": "Reinier Hernández",
     "email": "sasuke.reinier@gmail.com",
-    "url": "https://ragnarok-blog.netlify.app/about-me/"
+    "url": "https://blog.ragnarok22.dev/about-me/"
   }
 }

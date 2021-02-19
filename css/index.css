@@ -54,3 +54,11 @@ h6 {
 .post-tag {
   width: fit-content;
 }
+
+.post a {
+  text-decoration: underline;
+}
+
+a[href*="#"] {
+  display: none;
+}

@@ -13,14 +13,14 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" href="{{ '/img/logo.png' | url }}">
   </head>
-  <body class="flex justify-center font-sans text-lg min-h-screen">
-    <div class="page">
+  <body class="flex justify-center font-sans md:text-lg min-h-screen">
+    <div class="page mx-3 md:mx-0">
       <header class="flex mt-5 justify-center mb-16">
           <div class="brand-img mr-3">
               <img src="/img/logo.png" alt="logo" width="50px" height="50px">
           </div>
           <div class="brand-name">
-              <h1 class="brand-title text-4xl font-semibold"><a href="{{ '/' | url }}">Blog de Ragnarok</a></h1>
+              <h1 class="brand-title text-3xl md:text-4xl font-semibold"><a href="{{ '/' | url }}">Blog de Ragnarok</a></h1>
               <div class="brand-topics">
               {% for tag in collections.tagList %}
                 {% set tagUrl %}/tags/{{ tag }}/{% endset %}

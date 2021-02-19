@@ -1,5 +1,5 @@
 ---
-title: Releases automáticos con GitHub actions.
+title: Releases automáticos con GitHub actions
 description: Como hacer despliegues continuos automáticos usando Github actions
 date: 2021-02-17
 tags:

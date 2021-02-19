@@ -2,13 +2,13 @@
 layout: layouts/home.njk
 ---
 
-<div class="content">
+<div class="content mt-16">
   {% set maxPosts = collections.posts.length | min(3) %}
   {% set postslist = collections.posts | head(-3) %}
   {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}
   
   <div class="all-posts">
-    <a href="{{ '/posts/' | url }}">Todas las entradas</a>
+    <a href="{{ '/posts/' | url }}" class="text-sm underline">Todas las entradas</a>
   </div>
 </div>

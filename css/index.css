@@ -1,95 +1,37 @@
-* {
-  margin: 0;
-  padding: 0;
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(43, 43, 43);
-  transition: all .4s ease-in;
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-a:hover {
-  color: black;
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p {
-  margin-top: 1.5rem;
+h5 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-size: 1.07rem;
+  line-height: 1.5rem;
 }
 
 .page {
   width: 600px;
   display: flex;
   flex-direction: column;
-}
-
-.page .header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5rem;
-  padding-top: .5rem;
-}
-
-.page .header .brand-name {
-  display: flex;
-  flex-direction: column;
-}
-
-.page .header .brand-img {
-  margin-left: 50px;
-  margin-right: 10px;
-}
-
-.page .header .brand-name .brand-topics {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  align-self: auto;
-}
-
-.page .header .brand-name .brand-topics i {
-  margin: 0 5px;
-}
-
-.page .content {
-  padding: 0 10px;
-}
-
-
-
-.page .content .post-list .post-item {
-  display: flex;
-  justify-content: space-between;
-  flex: 1 0 auto;
-  margin-bottom: 15px;
-}
-
-.page .content .post-list .post-item .post-tag {
-  background-color: #686868;
-  padding: 3px 5px;
-  color: white;
-  font-size: .8rem;
-}
-
-.page .content .post-list .post-item a {
-  font-weight: 800;
-}
-
-.page .content .post-list .post-item time, time {
-  margin-top: 5px;
-  color: #5a5a5a;
-  text-transform: lowercase;
-}
-
-.page .content .post-list .post-item .post-title {
-  margin-top: 0;
 }
 
 .page .content .all-posts {
@@ -102,43 +44,9 @@ a:hover {
 }
 
 .page .content .all-posts::after {
-  content: ">>";
+  content: "➜";
 }
 
-.page footer.footer {
-  margin-bottom: 20px;
-  margin-top: auto;
-  text-align: center;
-}
-
-/******* ERROR 404 *******/
-.error.e404 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.error.e404 .error-number {
-  color: grey;
-  padding-right: 10px;
-  border-right: 1px solid grey;
-}
-
-.error.e404 a {
-  color: grey;
-  text-decoration: underline;
-}
-
-.error.e404 p {
-  margin-left: 10px;
-}
-
-/********** POSTS ************/
-.post .post-header {
-  margin-bottom: 2.5rem;
-}
-
-.post .post-header .post-title {
-  font-size: 3rem;
+.page .post-content h1, h2, h3 {
+  margin-top: 1.5rem;
 }

@@ -6,6 +6,7 @@ tags:
   - CD/CI
   - GitHub
 layout: layouts/post.njk
+draft: true
 ---
 
 ## ¿Qué son los GitHub actions?

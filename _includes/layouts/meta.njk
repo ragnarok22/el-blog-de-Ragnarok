@@ -1,0 +1,17 @@
+<meta itemprop="name" content="{{ metadata.title }}">
+<meta itemprop="description" content="{{ metadata.description }}">
+
+<meta name="twitter:title" content="{{ title or metadata.title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="{{ description or metadata.description }}">
+<meta name="twitter:site" content="{{ metadata.author.twitter }}">
+<meta name="twitter:creator" content="{{ metadata.author.twitter }}">
+<meta name="twitter:image:src" content="https://usecard.netlify.app/card?url={{ page.url | url | absoluteUrl(metadata.url) }}">
+
+<meta name="og:title" content="{{ title or metadata.title }}">
+<meta name="og:description" content="{{ description or metadata.description }}">
+<meta name="og:image" content="https://usecard.netlify.app/card?url={{ page.url | url | absoluteUrl(metadata.url) }}">
+<meta name="og:url" content="{{ url or metadata.url }}">
+<meta name="og:site_name" content="{{ metadata.title }}">
+<meta name="og:locale" content="es_CU">
+<meta name="og:type" content="website">

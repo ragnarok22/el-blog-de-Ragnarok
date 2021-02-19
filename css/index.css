@@ -34,19 +34,23 @@ h6 {
   flex-direction: column;
 }
 
-.page .content .all-posts {
+.page .content .all-posts, .all-tags {
   margin-top: 10px;
   transition: all .2s ease-in;
 }
 
-.page .content .all-posts:hover {
+.page .content .all-posts:hover, .all-tags:hover {
   margin-left: 5px;
 }
 
-.page .content .all-posts::after {
+.page .content .all-posts::after, .all-tags::after {
   content: "➜";
 }
 
 .page .post-content h1, h2, h3 {
   margin-top: 1.5rem;
+}
+
+.post-tag {
+  width: fit-content;
 }

@@ -14,6 +14,22 @@ templateClass: tmpl-post
 </div>
 
 <hr class="mb-5">
+<div class="text-center">
+  <h3>No seas tacaño y comparte</h3>
+  <div class="flex flex-row justify-center">
+    <a class="twitter-share-button mx-3"
+      href="https://twitter.com/intent/tweet?text={{ description }}&via=RagnarokReinier&url={{ page.url | url | absoluteUrl(metadata.url) }}"
+      data-size="large"
+      target="_blank">
+        <i class="fab fa-twitter-square fa-2x"></i>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | url | absoluteUrl(metadata.url) }}" target="_blank" class="mx-3">
+        <i class="fab fa-facebook-square fa-2x"></i>
+    </a>
+  </div>
+</div>
+
+
 <ul class="flex justify-between mb-8">
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- if nextPost %}

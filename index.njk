@@ -2,7 +2,7 @@
 layout: layouts/home.njk
 ---
 
-<div class="content mt-16">
+<div class="content">
   {% set maxPosts = collections.posts.length | min(3) %}
   {% set postslist = collections.posts | head(-3) %}
   {% set postslistCounter = collections.posts | length %}

@@ -14,6 +14,9 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" href="{{ '/img/logo.png' | url }}">
+
+    <link rel="webmention" href="https://webmention.io/ragnarok22.dev/webmention" />
+    <link rel="pingback" href="https://webmention.io/ragnarok22.dev/xmlrpc" />
   </head>
   <body class="flex justify-center font-sans md:text-lg min-h-screen">
     <div class="page flex px-3 md:mx-0 w-full md:w-2/5">
@@ -39,6 +42,9 @@
 
       <footer class="footer mt-auto text-center mb-8">
           Creado por <a href="http://twitter.com/RagnarokReinier" target="_blank" class="underline text-green-700">@Ragnarok22</a> | <a href="/about" class="underline">Sobre mi</a>
+          <div class="social-links">
+            <a href="https://twitter.com/RagnarokReinier" rel="me">@RagnarokReinier</a>
+          </div>
       </footer>
   </div>
 </body>

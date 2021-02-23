@@ -6,7 +6,7 @@ Esta plantilla está basada en [Eleventy](https://github.com/11ty/eleventy). En 
 [![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/668f2a54-8775-4bcd-b827-97015d2c3a0b/deploy-status)](https://app.netlify.com/sites/ragnarok22/deploys)
 
-### Notas de implementacióm
+### Notas de implementación
 
 * `posts/` contiene las publicaciones del blog
 * El contenido puede ser cualquier formato de plantilla (por ejemplo, las publicaciones no necesitan ser markdown). Puedes configurar las plantillas soportadas en `.eleventy.js` -> `templateFormats`.

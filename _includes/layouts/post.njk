@@ -29,7 +29,6 @@ templateClass: tmpl-post
   </div>
 </div>
 
-
 <ul class="flex justify-between mb-8">
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- if nextPost %}
@@ -47,3 +46,5 @@ templateClass: tmpl-post
     </li>
   {% endif %}
 </ul>
+
+<div data-webmentions="{{ page.url | url | absoluteUrl(metadata.url) }}" ></div>

@@ -53,13 +53,15 @@ Todo el código mostrado aquí se puede encontrar en [mi GitHub](https://github.
 Cada `workflow` está compuesto por `jobs` y cada `job` está compuesto por `steps`. Ahora veremos que es cada cosa.
 
 En primer lugar tenemos `name` que especifica el nombre que se va a mostrar la action que creaste en GitHub. Si vamos a nuestro repo y le damos click en donde dice Actions veremos lo siguiente:
-![los actions](/img/posts/github-actions/all-actions.png)
+<div><img src="/img/posts/github-actions/all-actions.png"></img></div>
+
 Después le sigue `on: push` que expecifica cuando se va a ejecutar el *workflow*. Aquí hay varias opciones. Puedes especificar un evento en específico (`push`, `pull`) y puedes especificar una o varias ramas, tags, etc. *[Más info aquí](https://docs.github.com/es/actions/reference/events-that-trigger-workflows)*
 Después le siguen los `jobs` que son los *trabajos* que va a contener ese `workflow`.
 En nuestro caso solo tenemos un `jobs` llamado `primer-trabajo`. A continuación definimos el nombre del `job` `Mi primera Prueba` y le decimos en que máquina virtual queremos que corra este `job`. En nuestro caso queremos que se ejecute en la última versión de ubuntu. Si entramos dentro del [commit](https://github.com/ragnarok22/example-actions/actions/runs/582350118) que ejecutó el `action` veremos lo siguiente:
-![los jobs](/img/posts/github-actions/jobs.png)
+<div><img src="/img/posts/github-actions/jobs.png"></img></div>
+
 en `steps` se definen los pasos que va a realizar este `jobs`. En nuestro ejemplo solo tenemos un paso llamado `imprimir mensaje` que solo mostrará un texto en pantalla. Para verlo entramos dentro del [job](https://github.com/ragnarok22/example-actions/runs/1937678060?check_suite_focus=true). Una vez dentro podemos ver cada paso realizado y desplegar para ver su salida:
-![los steps](/img/posts/github-actions/steps.png)
+<div><img src="/img/posts/github-actions/steps.png"></img></div>
 
 ## Conclusiones
 

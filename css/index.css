@@ -68,3 +68,12 @@ i.fa-twitter-square {
 i.fa-facebook-square {
   color: #4267B2;
 }
+
+.page .post-content ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+code {
+  background-color: #e6e6e6;
+}

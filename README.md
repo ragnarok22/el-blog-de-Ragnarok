@@ -4,7 +4,7 @@ Un blog sobre mis experiencias y tropezones en el mundo de desarrollo de softwar
 Esta plantilla está basada en [Eleventy](https://github.com/11ty/eleventy). En su repositorio muestran como construir un blog con el generador estático de Eleventy.
 
 [![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/668f2a54-8775-4bcd-b827-97015d2c3a0b/deploy-status)](https://app.netlify.com/sites/ragnarok22/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b355f6f7-d037-465e-8444-ca7d30561efe/deploy-status)](https://app.netlify.com/sites/ragnarok22-blog/deploys)
 
 ### Notas de implementación
 

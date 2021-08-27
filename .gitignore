@@ -1,3 +1,7 @@
+# Node
 _site/
 node_modules/
 package-lock.json
+
+# Editor
+.idea/

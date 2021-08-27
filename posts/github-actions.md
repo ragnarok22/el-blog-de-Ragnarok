@@ -1,6 +1,6 @@
 ---
 title: Procesos automáticos en GitHub
-description: En este artículo te enseño como automátizar procesos con GitHub actions y ahorrarte tiempo y dinero.
+description: En este artículo te enseño como automatizar procesos con GitHub actions y ahorrarte tiempo y dinero.
 date: 2021-02-17
 tags:
   - CD/CI
@@ -55,7 +55,7 @@ Cada `workflow` está compuesto por `jobs` y cada `job` está compuesto por `ste
 En primer lugar tenemos `name` que especifica el nombre que se va a mostrar la action que creaste en GitHub. Si vamos a nuestro repo y le damos click en donde dice Actions veremos lo siguiente:
 <div><img src="/img/posts/github-actions/all-actions.png"></img></div>
 
-Después le sigue `on: push` que expecifica cuando se va a ejecutar el *workflow*. Aquí hay varias opciones. Puedes especificar un evento en específico (`push`, `pull`) y puedes especificar una o varias ramas, tags, etc. *[Más info aquí](https://docs.github.com/es/actions/reference/events-that-trigger-workflows)*
+Después le sigue `on: push` que especifica cuando se va a ejecutar el *workflow*. Aquí hay varias opciones. Puedes especificar un evento en específico (`push`, `pull`) y puedes especificar una o varias ramas, tags, etc. *[Más info aquí](https://docs.github.com/es/actions/reference/events-that-trigger-workflows)*
 Después le siguen los `jobs` que son los *trabajos* que va a contener ese `workflow`.
 En nuestro caso solo tenemos un `jobs` llamado `primer-trabajo`. A continuación definimos el nombre del `job` `Mi primera Prueba` y le decimos en que máquina virtual queremos que corra este `job`. En nuestro caso queremos que se ejecute en la última versión de ubuntu. Si entramos dentro del [commit](https://github.com/ragnarok22/example-actions/actions/runs/582350118) que ejecutó el `action` veremos lo siguiente:
 <div><img src="/img/posts/github-actions/jobs.png"></img></div>
@@ -65,4 +65,4 @@ en `steps` se definen los pasos que va a realizar este `jobs`. En nuestro ejempl
 
 ## Conclusiones
 
-Como podemos apreciar los GitHub actions son una herramienta potente para automatizar procesos. Uno de sus usos pricipales es el CI/CD (integración continua y entrega continua) donde se pueden crear releases automáticos de tu software. En el caso de [GitLab](https://gitlab.com/) estos se llaman GitLab Runners y tienen una sintaxis muy parecida. Espero que te halla servido y puedas dar tus primeros pasos a un desarrollo más limpio y ágil. Para más info puedes visitar la [documentación de GitHub](https://docs.github.com/es/actions/reference/workflow-syntax-for-github-actions).
+Como podemos apreciar los GitHub actions son una herramienta potente para automatizar procesos. Uno de sus usos principles es el CI/CD (integración continua y entrega continua) donde se pueden crear releases automáticos de tu software. En el caso de [GitLab](https://gitlab.com/) estos se llaman GitLab Runners y tienen una sintaxis muy parecida. Espero que te haya servido y puedas dar tus primeros pasos a un desarrollo más limpio y ágil. Para más info puedes visitar la [documentación de GitHub](https://docs.github.com/es/actions/reference/workflow-syntax-for-github-actions).

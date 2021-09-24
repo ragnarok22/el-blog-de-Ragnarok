@@ -102,7 +102,7 @@ Esto es un "hola mundo" con puppeteer. Una vez abierta la web que deseas puedes 
     let results = await page.evaluate(() => {
         const selector = '#pagina > .my-class';
         return document.querySelector(selector).textContent;
-      })
+    })
 Con el método `evaluate` "entramos" a la consola del navegador de puppeteer y ejecutamos código javaScript. Ahí solo usamos `document.querySelector` para seleccionar el contenido de un elemento y retornarlo.
 
 ## ¿Solo podemos obtener datos con Puppeteer?

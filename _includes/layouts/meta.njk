@@ -1,6 +1,6 @@
 <meta itemprop="name" content="{{ metadata.title }}">
 <meta itemprop="description" content="{{ metadata.description }}">
-<link rel="canonical" href="{{ url or metadata.url }}">
+<link rel="canonical" href="{{ page.url | url | absoluteUrl(metadata.url) }}">
 
 <meta name="twitter:title" content="{{ title or metadata.title }}">
 <meta name="twitter:card" content="summary_large_image">
@@ -12,7 +12,7 @@
 <meta name="og:title" content="{{ title or metadata.title }}">
 <meta name="og:description" content="{{ description or metadata.description }}">
 <meta name="og:image" content="https://usecard.netlify.app/card?url={{ page.url | url | absoluteUrl(metadata.url) }}">
-<meta name="og:url" content="{{ url or metadata.url }}">
+<meta name="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
 <meta name="og:site_name" content="{{ metadata.title }}">
 <meta name="og:locale" content="es_CU">
 <meta name="og:type" content="website">
